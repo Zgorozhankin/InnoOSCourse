@@ -1,0 +1,10 @@
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1
+./week4ex1

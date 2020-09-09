@@ -1,0 +1,1 @@
+Initially, there is one process created, when the program starts. fork() creates a copy of this process. The next fork() creates a copy of the each process and there are 4 processes. After the next fork(), there are already 8 processes
