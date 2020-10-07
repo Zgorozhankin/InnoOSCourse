@@ -1,0 +1,4 @@
+Page size 8Kb => 8 * 1024 = 2^13 bytes in each page
+log(2^13) = 13 bits, needed to index the entrire page
+Virtial address 16 byte, so there are only 16 - 13 = 3 byte for index the page table entries
+2^3 = 8 entries needed
