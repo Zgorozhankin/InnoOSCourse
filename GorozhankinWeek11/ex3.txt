@@ -1,0 +1,10 @@
+First program prints: 
+Hello\nHello\n 
+because after printf("Hello") fork() produced child process which has the same data. 
+=> after printf("\n") new line character is added to the buffer where already the string "Hello". 
+As line buffer prints after accepting new line character, child process eventually will print "Hello\n"
+
+Second program prints:
+Hello\n\n
+because after line printf("Hello\n") in buffer will store "Hello\n" which will be immeadeately printed. 
+Then buffer will be flushed, after creation of child process printf("\n") will print only new line
